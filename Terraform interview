@@ -15,4 +15,10 @@ What are data sources [ allows us to get data form outside of terraform context]
 What is local variable in terraform [ it is used to reduce the long expression ]
 What is difference between  variable and local variable [ In main variable we cannot use exxpression, local variable are computed variables ]
 How to manage multiple environments [ manage by using terraform workspaces ]
+How are dependencies are managed in terraform
+How do we validate terraform syntax without running terraform apply command [ terraform validate ]  https://www.youtube.com/watch?v=hte3cRRADrE
+what is difference between tfvars and variable.tf [ tfvars cantains input the the variable , variable.tf contains varibale decleration ]
+How do you manage secrets in terraform
+What is taint in terrafom       https://www.youtube.com/watch?v=OOZkOJVH0rA&list=PLRNOJlxfCVGiWj8gkb09ovT4ah-G3XZnx
+What is terrafomfmt [ used to rewrite the terraform configuration to a conical format ]
 
