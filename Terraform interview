@@ -21,4 +21,8 @@ what is difference between tfvars and variable.tf [ tfvars cantains input the th
 How do you manage secrets in terraform
 What is taint in terrafom       https://www.youtube.com/watch?v=OOZkOJVH0rA&list=PLRNOJlxfCVGiWj8gkb09ovT4ah-G3XZnx
 What is terrafomfmt [ used to rewrite the terraform configuration to a conical format ]
+**********************************************************************************************************************************************************
+
+https://github.com/gashok13193/DevOps-Docs/blob/main/Terraform/Scenario_based%20_%20Q%26A.md
+
 
