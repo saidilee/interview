@@ -1,0 +1,17 @@
+Expalin about Kubenetes architecture
+Why should i chose kubernetes and why not docker swarn
+Technical manage what to optimize the resources 
+Deployment Challenges in Microservices, Addressing deployment challenges in microservices architectures. Role of Kubernetes in automating deployment processes.
+what do you understand about namespace    [ kubectl create namespace <namespace-name> ] 
+what is purpose of operators 
+what are the various security things do in kubenetes
+what to get central logs, how do i do that
+what do understand default ingress backend
+pod is not getting schedule
+Is their any way to external connectivity to kubernetes
+Port Forwarding in Kubernetes, Forwarding port 8080 from a container to a service, Ingress, and finally to a browser, Using Ingress controllers to expose ports externally, Configuring selectors to manage traffic forwarding effectively.
+
+
+
+
+
