@@ -11,6 +11,30 @@ pod is not getting schedule
 Is their any way to external connectivity to kubernetes
 Port Forwarding in Kubernetes, Forwarding port 8080 from a container to a service, Ingress, and finally to a browser, Using Ingress controllers to expose ports externally, Configuring selectors to manage traffic forwarding effectively.
 
+###################################################################################################################################################################################################################
+
+What is Kubernetes why it is so popular as cotainer orchestration
+what self healing in kubenetes
+Kubernetes is portable if yes why
+what is use of pod
+How kubenetes ensure availabilty of applicaion in kubenetes
+what is replicaset
+Difference between Kubernetes deployment and service
+experience in upgrading the cluster
+what are self hosted cluster
+Experience in scaling kubernetes
+How to handle persistance volume storage
+How do you use config map
+Kubernetes service account
+Types of deployment stratgies
+when do we use statefull set 
+How do you secure kubernetes cluster
+what charges for security like hashi corp
+monitoring in Kubernetes
+
+#####################################################################################################################################################################################################################
+
+How do you architect your pipeline from start to production what are steps
 
 
 
