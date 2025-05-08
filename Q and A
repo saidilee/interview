@@ -1,3 +1,7 @@
+
+https://www.ambitionbox.com/profiles/aws-devops-engineer/interview-questions?utm_campaign=read_interview_single&utm_source=naukri&utm_medium=email&cvId=&utm_content=2254_read_ab_content_email_live_read_ab_content_email_start_7a5b&utm_term=524758
+
+
 Q1. If I delete an instance on the console and then deploy the same instance using a Terraform template, how will Terraform behave?
 Ans. Terraform will recreate the instance as per the template
 Terraform will detect that the instance is missing and recreate it based on the template
@@ -72,4 +76,15 @@ Control and track changes with Staging and Committing: Use 'git add' to stage ch
 Branch and Merge to allow for work on different parts and versions of a project: Use 'git branch' to create branches and 'git merge' to merge them.
 Pull the latest version of the project to a local copy: Use 'git pull' to fetch and merge changes from the remote repository.
 Push local updates to the main project: Use 'git push' to push committed changes to the remote repository.
+
+
+Q11. How to create soft link and hardlink How to create empty file in Linux?
+Ans. To create a soft link, use the 'ln -s' command. To create a hard link, use the 'ln' command. To create an empty file, use the 'touch' command.
+To create a soft link: ln -s
+To create a hard link: ln
+To create an empty file: touch
+View 2 more answers
+right arrow
+
+
 
