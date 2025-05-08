@@ -1,0 +1,75 @@
+Q1. If I delete an instance on the console and then deploy the same instance using a Terraform template, how will Terraform behave?
+Ans. Terraform will recreate the instance as per the template
+Terraform will detect that the instance is missing and recreate it based on the template
+The new instance will have the same configuration as defined in the template
+Any changes made to the instance outside of Terraform will be lost
+
+
+Q2. How do you troubleshoot a Docker container that is failing?
+Ans. To troubleshoot a dying docker container, we can use logs, inspect the container, and check resource usage.
+Check container logs using 'docker logs ' command
+Inspect the container using 'docker inspect ' command to check its status and configuration
+Check resource usage using 'docker stats ' command to see if it's running out of memory or CPU
+Restart the container using 'docker restart ' command if necessary
+
+Q3. How do you take a backup of Linux logs to an AWS S3 bucket?
+Ans. Use AWS CLI to sync Linux logs to S3 bucket
+Install AWS CLI on the Linux machine
+Create an S3 bucket and configure IAM role with S3 permissions
+Use AWS CLI command 'aws s3 sync' to sync logs to S3 bucket
+Schedule a cron job to run the backup regularly
+
+Q4. How many ways can you create a role in AWS?
+Ans. There are multiple ways to create a role in AWS.
+Using AWS Management Console
+Using AWS CLI
+Using AWS SDKs
+Using AWS CloudFormation
+Using AWS Identity and Access Management (IAM) APIs
+
+
+Q5. If an EC2 instance is deleted from the AWS Console and then Terraform is applied, will it create a new instance or throw an error?
+Ans. Terraform will recreate the EC2 machine if it is deleted from AWS Console.
+Terraform will detect that the EC2 machine is missing and recreate it according to the defined configuration in the Terraform script.
+Deleting the EC2 machine from the AWS Console will not affect the Terraform configuration, as Terraform maintains its own state file.
+Running Terraform apply after deleting the EC2 machine will result in the creation of a new machine with the specified configuration.
+
+
+Q6. What tools have you used to check the quality of code written for deployment?
+Ans. I have used code reviews, automated testing, static code analysis tools, and continuous integration to check the quality of code.
+Code reviews by peers to catch bugs and ensure best practices
+Automated testing using tools like Selenium for functional testing and JUnit for unit testing
+Static code analysis tools like SonarQube to identify code smells and potential bugs
+Continuous integration with tools like Jenkins to automate testing and deployment processes
+
+
+Q7. What are the health checks after creating instances - 2/2? What do they mean?
+Ans. Health checks after creating instances ensure the instances are functioning properly.
+Instance status checks ensure the instance is reachable and responding to traffic.
+System status checks ensure the underlying hardware is functioning properly.
+Example: If an instance fails the system status check, it may indicate a problem with the underlying host hardware.
+
+
+Q8. How can we set up an automated job to transfer data from DynamoDB tables to S3 every Friday, and which AWS services should be used?
+Ans. Use AWS Lambda and CloudWatch Events to automate data transfer from DynamoDB to S3 every Friday.
+Create an AWS Lambda function to read data from DynamoDB tables and write to S3 bucket
+Create a CloudWatch Events rule to trigger the Lambda function every Friday
+Ensure that the Lambda function has the necessary permissions to access DynamoDB and S3
+Test the automation job to ensure that data is transferred correctly
+
+
+Q9. How do you give executable permissions of a file only to the user?
+Ans. To give executable permissions of a file only to the user, use the chmod command with the u+x option.
+Open the terminal and navigate to the directory where the file is located.
+Use the command 'chmod u+x filename' to give executable permissions to the user only.
+Verify the permissions using the 'ls -l' command.
+
+
+Q10. Manage projects with Repositories Clone a project to work on a local copy Control and track changes with Staging and Committing Branch and Merge to allow for work on different parts and versions of a project Pu...read more
+Ans. Managing projects with repositories involves cloning, staging, committing, branching, merging, pulling, and pushing changes.
+Clone a project to work on a local copy: Use 'git clone ' to create a local copy of the project.
+Control and track changes with Staging and Committing: Use 'git add' to stage changes and 'git commit' to commit them.
+Branch and Merge to allow for work on different parts and versions of a project: Use 'git branch' to create branches and 'git merge' to merge them.
+Pull the latest version of the project to a local copy: Use 'git pull' to fetch and merge changes from the remote repository.
+Push local updates to the main project: Use 'git push' to push committed changes to the remote repository.
+
