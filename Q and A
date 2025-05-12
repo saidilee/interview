@@ -87,4 +87,18 @@ View 2 more answers
 right arrow
 
 
+Q93. Explain Kubernetes.
+Ans. Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+Kubernetes is used to manage and automate the deployment of containerized applications.
+It provides a platform for running and scaling applications across a cluster of machines.
+Kubernetes ensures high availability and fault tolerance by automatically restarting failed containers.
+It allows for easy scaling of applications by adding or removing containers based on demand.
+Kubernetes provides features like load balancing, service discovery, and rolling updates for seamless application management.
+It supports various container runtimes like Docker, containerd, and CRI-O.
+Kubernetes uses declarative configuration files to define the desired state of applications and manages the actual state to match the desired state.
+It provides a rich set of APIs and command-line tools for interacting with the cluster and managing applications.
+Kubernetes can be deployed on various cloud providers or on-premises infrastructure.
+Popular tools like Helm and Prometheus integrate well with Kubernetes for package management and monitoring.
+
+
 
