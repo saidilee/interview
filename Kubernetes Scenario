@@ -120,3 +120,5 @@ To schedule pods on specific nodes based on availability and custom requirements
 - Leverage node selectors: Node selectors are a simple way to schedule pods on specific nodes. Assign labels to the nodes and define the matching node selector in the pod's YAML or manifest file to direct the scheduler to schedule the pod on the desired nodes.
 
 - Utilize node-specific resources: If certain nodes have specialized hardware or unique capabilities required by specific pods, label those nodes accordingly. Then, use node affinity rules to schedule pods that require those resources on the corresponding nodes
+
+https://www.linkedin.com/pulse/kubernetes-interview-question-answers-scenario-based-preethi-dovala-8nnkc/
