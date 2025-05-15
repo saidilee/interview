@@ -1,4 +1,4 @@
-Scenario: You have a Kubernetes cluster with multiple worker nodes. One of the nodes becomes unresponsive and needs to be replaced. Explain the steps you would take to replace the node without affecting the availability of applications running on the cluster.
+1. Scenario: You have a Kubernetes cluster with multiple worker nodes. One of the nodes becomes unresponsive and needs to be replaced. Explain the steps you would take to replace the node without affecting the availability of applications running on the cluster.
 Answer: To replace the unresponsive node without affecting application availability, I would follow these steps:
 
 Drain the unresponsive node: Use the kubectl drain command to gracefully evict all the pods running on the unresponsive node. This ensures that the pods are rescheduled on other healthy nodes.
@@ -11,7 +11,7 @@ Uncordon the node: Once the new node is ready, use the kubectl uncordon command 
 
 ################################################################################################################################################################################
 
-Scenario: You have a stateful application running on Kubernetes that requires persistent storage. How would you ensure that the data is retained when the pods are rescheduled or updated?
+2. Scenario: You have a stateful application running on Kubernetes that requires persistent storage. How would you ensure that the data is retained when the pods are rescheduled or updated?
 Answer: To ensure data retention for a stateful application, I would use the following Kubernetes features:
 
 Persistent Volumes (PVs) and Persistent Volume Claims (PVCs): I would create a Persistent Volume that represents the storage resource (e.g., a network-attached disk) and then create a Persistent Volume Claim that binds to the PV. This ensures that the same volume is attached to the pod when it's rescheduled or updated.
