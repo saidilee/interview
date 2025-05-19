@@ -1,0 +1,23 @@
+1. Top [ Helps to check realltime utilisation of system performance [CPU] ]
+2. htop [ It warpper, we need to intsall it, it gives better read ability for monitor system oerformance]
+3. ps [ Used to list running process and PID ]
+4. ps aux [ provides detail iformation but not raltime ]
+5. pgrep nginix [ if any process is running if want to see for process running on your machine ]
+6. pstree -p [ we can see hirerachy of all process ]
+7. netstat -tuln [ used to inspect which ports are in use and for troubleshoot ]
+8. sudo tcpdump -i port enX0 80 [ application troubleshoot like taking more latency, enx0 is primary network interface that which we are using we can see by ifconfig ] to understand output flow we can use [WIRESHARK] for better understanding of flow
+9. ping www.google.com [ to run your application has internet ]
+10. traceroute [ here we can get more information ]
+11. df -h [ to see disk space is left ]
+12. du -sh foldername [ ex: du -sh opt ] [ If we want to see disk usage of perticular folder ]
+13. free -h [ memory utilization ]
+14. journalctl [ To check the logs of services ]
+15. journalctl -u nginix [ To chceck particular servcice ]
+16. losf -i :port [ To see which service is usning this port, some time it shows port is in use so we can say [netstat -tuln and to see port losf -i :8080 ] ]
+17. tail -n 10 var/log/auth.log [ shows last 10 lines ]
+18. head -n 10 var/log [ shows top 10 lines ]
+
+#########################################
+shortcuts:
+ctrl+R or cmd+R [ If we have used any command few weeks ago if dont remember we use shortcut [ex: ctrl+R docker it shows all commands on docker just prss ctl+R ultill you get your command] it helps to find in easy way]
+export "PS1=Linux command $: " [ To change the name for your machine ]
