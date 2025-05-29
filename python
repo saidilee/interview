@@ -1,0 +1,2 @@
+source myenv/bin/activate [ used to create a env in vscode using python ]
+deactivate [ to go back ]
